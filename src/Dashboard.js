@@ -470,7 +470,7 @@ class Dashboard extends Component {
             </TableBody>
           </Table>
           <br />
-          <Pagination count={this.state.pages} page={this.state.page} onChange={this.pageChange} color="primary" />
+          <Pagination count={this.state.pages} page={this.state.page} onChange={this.pageChange} color="secondary" />
         </TableContainer>
 
       </div>
